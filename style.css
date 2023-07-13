@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background: #d0cdf8;
+    color: #023047;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.search {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #3535352b;
+    color: #023047;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #023047;
+    color: white;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #3535352b;
+    color: #023047;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+h1.temp {
+    margin-block: 10px;
+}
+
+.city {
+    margin-block: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
+
+button.unit-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #3535352b;
+    color: #023047;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+button.unit-toggle:hover {
+    background: #023047;
+    color: white;
+}
